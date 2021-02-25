@@ -12,7 +12,7 @@ function isValidIP(str){
         }
         loop = 0
         while(loop < 3){
-            if(chars[loop] = 0){
+            if(chars[loop] == 0){
                 return false;
             }
             loop++
